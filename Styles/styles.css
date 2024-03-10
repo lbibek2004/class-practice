@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition-duration: 0.3s;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+}
+nav ul{
+    display: flex;
+    margin-top: ;
+
+}
+.navigation{
+    justify-content: end;
+    display: flex;
+    margin-top: -20px;
+}
+.user-details{
+    text-align: center;
+}
+#user-avater{
+    margin-top: 80px;
+    font-size: 100px;
+    color: seagreen;
+}
+#profile{
+    margin: 5px 0px 0px 5px;
+    font-size: 30px;
+}
+#profile:hover,
+#user-avater:hover,
+.header h3:hover{
+    transform: scale(1.2);
+}
+nav ul li:hover{
+    color: aquamarine;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#profile:hover{
+    color: aquamarine;
+}
