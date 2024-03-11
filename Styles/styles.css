@@ -1,12 +1,23 @@
 *{
     margin: 0;
     padding: 0;
-    transition-duration: 0.3s;
+    transition-duration: 0.25s;
 }
-
+body{
+    background-color: azure;
+}
+.header{
+    background-color:gray;
+    height: 45px;
+}
 nav ul li{
     display: inline-block;
     padding: 0px 15px 0px 15px;
+}
+nav ul li a,
+.user-details h3 a{
+    text-decoration: none;
+    color: inherit;
 }
 nav ul{
     display: flex;
@@ -20,6 +31,8 @@ nav ul{
 }
 .user-details{
     text-align: center;
+    width: 50%;
+    margin-left: 25%;
 }
 #user-avater{
     margin-top: 80px;
@@ -32,14 +45,14 @@ nav ul{
 }
 #profile:hover,
 #user-avater:hover,
-.header h3:hover{
-    transform: scale(1.2);
-}
+.user-details h3 a:hover,
 nav ul li:hover{
-    color: aquamarine;
     transform: scale(1.2);
-    cursor: pointer;
 }
-#profile:hover{
+
+#profile:hover,
+#user-avater:hover,
+nav ul li a:hover,
+.user-details h3 a:hover{
     color: aquamarine;
 }
